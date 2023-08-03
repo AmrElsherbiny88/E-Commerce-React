@@ -21,7 +21,7 @@ const HomeSlider = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 1500,
+          delay: 2500,
           disableOnInteraction: false,
         }}
      
@@ -33,7 +33,7 @@ const HomeSlider = () => {
         <MDBCarousel>
             
       <MDBCarouselItem
-        className='w-100 d-block'
+        className='w-100 d-block sale-imgg'
         itemId={1}
         src={img1}
         alt='...'
@@ -47,7 +47,7 @@ const HomeSlider = () => {
         <MDBCarousel>
             
             <MDBCarouselItem
-              className='w-100 d-block'
+              className='w-100 d-block sale-imgg'
               itemId={1}
               src={img2}
               alt='...'
@@ -61,7 +61,7 @@ const HomeSlider = () => {
         <MDBCarousel>
             
             <MDBCarouselItem
-              className='w-100 d-block'
+              className='w-100 d-block sale-imgg'
               itemId={1}
               src={img7}
               alt='...'
@@ -74,7 +74,7 @@ const HomeSlider = () => {
         <MDBCarousel>
             
             <MDBCarouselItem
-              className='w-100 d-block'
+              className='w-100 d-block sale-imgg'
               itemId={1}
               src={img3}
               alt='...'
@@ -87,7 +87,7 @@ const HomeSlider = () => {
         <MDBCarousel>
             
             <MDBCarouselItem
-              className='w-100 d-block'
+              className='w-100 d-block sale-imgg'
               itemId={1}
               src={img4}
               alt='...'
@@ -100,7 +100,7 @@ const HomeSlider = () => {
         <MDBCarousel>
             
             <MDBCarouselItem
-              className='w-100 d-block'
+              className='w-100 d-block sale-imgg'
               itemId={1}
               src={img6}
               alt='...'

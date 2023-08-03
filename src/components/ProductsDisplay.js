@@ -28,7 +28,7 @@ const ProductsDisplay = () => {
 
             <Col xl="3">
 
-              <Card className='mb-5' style={{ height: "300px" }}>
+              <Card className='mb-5 ' >
                 <Card.Img className='text-center m-auto' variant="top" style={{ height: "150px", width: "150px" }} src={product.image} />
                 <Card.Body>
                   <h6>{product.title}</h6>
