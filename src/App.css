@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+.light {
+  background-color: #f5f5f5;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* NavBar Start */
+.nav-butt{
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: purple;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbutts{
+  right: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.lightToggle {
+  scale: 1.5;
+  cursor: pointer;
+}
+
+
+.footer {
+  bottom: 0%;
+  background-color: rgb(23, 23, 23);
+  color: white;
+}
+
+.cat-swiper {
+ padding-left: 350px;
+ padding-right: 350px;
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+
+.cat-p {
+  top: 0%;
+}
+
+
+
+
+
+@media only screen and (max-width:967px) and (min-width:0){
+  .cat-swiper {
+    padding: 70px;
   }
 }
